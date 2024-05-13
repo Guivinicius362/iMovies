@@ -1,0 +1,7 @@
+name: my_project
+
+packages:
+  - imovies
+  - core
+  - auth
+  - design_system

@@ -1,0 +1,15 @@
+{
+    "flutter": {
+        "platforms": {
+            "dart": {
+                "lib/firebase_options.dart": {
+                    "projectId": "imovies-1b9be",
+                    "configurations": {
+                        "android": "1:239433348158:android:b2e30210397299196b8d6f",
+                        "ios": "1:239433348158:ios:0252d10d14d7f9f36b8d6f"
+                    }
+                }
+            }
+        }
+    }
+}
