@@ -25,10 +25,9 @@ class MyApp extends StatelessWidget {
         brightness: Brightness.dark,
         primaryColor: Colors.black,
         scaffoldBackgroundColor: Colors.black,
-        colorScheme: ColorScheme.dark().copyWith(
-          primary: Color(0xFF123456),
-          secondary: Color(
-              0xFF123456), // Replace 0xFF123456 with your desired color in hexadecimal
+        colorScheme: const ColorScheme.dark().copyWith(
+          primary: const Color.fromARGB(255, 19, 193, 109),
+          secondary: const Color.fromARGB(255, 19, 193, 109),
         ),
       ),
       home: const LoginPage(),
