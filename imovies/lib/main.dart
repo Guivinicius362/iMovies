@@ -22,8 +22,14 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Flutter Demo',
       theme: ThemeData(
-        colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
-        useMaterial3: true,
+        brightness: Brightness.dark,
+        primaryColor: Colors.black,
+        scaffoldBackgroundColor: Colors.black,
+        colorScheme: ColorScheme.dark().copyWith(
+          primary: Color(0xFF123456),
+          secondary: Color(
+              0xFF123456), // Replace 0xFF123456 with your desired color in hexadecimal
+        ),
       ),
       home: const LoginPage(),
     );
