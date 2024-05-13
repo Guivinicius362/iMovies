@@ -7,10 +7,10 @@ The aim of this project is to create a mobile application for viewing informatio
 
 ### Technologies Used
 
-Flutter: Google's multi-platform mobile app development framework.
-SOLID: Software design principles for writing clean, scalable, and maintainable code.
-Micropackages: Utilization of small, specialized packages to keep the code modular and easy to maintain.
-Clean Architecture: Software architecture that separates concerns into layers, allowing for more organized and testable code.
+- Flutter: Google's multi-platform mobile app development framework.
+- SOLID: Software design principles for writing clean, scalable, and maintainable code.
+- Micropackages: Utilization of small, specialized packages to keep the code modular and easy to maintain.
+- Clean Architecture: Software architecture that separates concerns into layers, allowing for more organized and testable code.
 
 
 ### Features
